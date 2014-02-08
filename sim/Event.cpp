@@ -1,7 +1,8 @@
 #include "Event.h"
 #include <algorithm>
 #include <cassert>
-using namespace sim;
+
+NSBEGIN(Sim)
 
 void Model::Run()
 {
@@ -58,7 +59,7 @@ Event* Model::popEvent()
 	return e;
 }
 
-void sim::Model::removeEvent(Event* e)
+void Model::removeEvent(Event* e)
 {
 	EventList::iterator itr = std::find(m_eventlist.begin(),m_eventlist.end(),e);
 	if(itr!=m_eventlist.end())
@@ -77,3 +78,5 @@ void Event::setTime(const Time& t)
 	
 	m_t = t;
 }
+
+NSEND
