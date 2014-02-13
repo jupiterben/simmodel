@@ -126,6 +126,9 @@
 			<File
 				RelativePath=".\airport.h">
 			</File>
+			<File
+				RelativePath=".\Unit.h">
+			</File>
 		</Filter>
 		<Filter
 			Name="Resource Files"
