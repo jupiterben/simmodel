@@ -1,10 +1,8 @@
 #pragma once
+#include "cpputil.h"
 
-#define NSBEGIN_SIM namespace sim{
-#define NSEND }
-#include <vector>
 
-NSBEGIN_SIM
+NSBEGIN(Sim)
 
 	class Model;	
 	class Time

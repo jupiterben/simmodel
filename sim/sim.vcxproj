@@ -75,6 +75,7 @@
     <ClCompile Include="Event.cpp" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="cpputil.h" />
     <ClInclude Include="Event.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
