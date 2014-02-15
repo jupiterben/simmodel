@@ -4,11 +4,14 @@
 int main()
 {
 	
-	Unit::quantity<double ,Unit::mass>  m1, m2;
-	Unit::quantity<double, Unit::time> t;
-	m1*t;
+	Unit::mass m1,m2;
+	Unit::time t;
+	Unit::length l;
 
-	m1+m2;
+
+	Unit::force f =  m1 * l / t ;
+
+	//m1+m2;
 
 
 	return 1;
