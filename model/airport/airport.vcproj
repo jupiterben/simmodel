@@ -116,6 +116,9 @@
 				RelativePath=".\airport.cpp">
 			</File>
 			<File
+				RelativePath=".\flight.cpp">
+			</File>
+			<File
 				RelativePath=".\main.cpp">
 			</File>
 		</Filter>
@@ -125,6 +128,9 @@
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
 			<File
 				RelativePath=".\airport.h">
+			</File>
+			<File
+				RelativePath=".\flight.h">
 			</File>
 		</Filter>
 		<Filter

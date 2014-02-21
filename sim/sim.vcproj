@@ -106,10 +106,22 @@
 			Filter="h;hpp;hxx;hm;inl;inc;xsd"
 			UniqueIdentifier="{93995380-89BD-4b04-88EB-625FBE52EBFB}">
 			<File
+				RelativePath=".\array.h">
+			</File>
+			<File
 				RelativePath=".\cpputil.h">
 			</File>
 			<File
 				RelativePath=".\Event.h">
+			</File>
+			<File
+				RelativePath=".\point.h">
+			</File>
+			<File
+				RelativePath=".\unit.h">
+			</File>
+			<File
+				RelativePath=".\unit.hpp">
 			</File>
 		</Filter>
 		<Filter

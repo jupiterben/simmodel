@@ -1,5 +1,7 @@
 #pragma once
+#include "..\..\sim\cpputil.h"
 #include "..\..\sim\Event.h"
+
 
 
 NSBEGIN(Model)
@@ -43,6 +45,7 @@ NSBEGIN(Airside)
 		{
 
 		};
+		
 	};
 
 	//
