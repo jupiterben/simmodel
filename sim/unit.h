@@ -25,7 +25,7 @@ NSBEGIN(SI)
 		typedef dimension<1,1,-1>	momentum;
 		typedef dimension<1,1,-2>	force;
 
-		typedef dimension<0,0,0>	scale;
+		typedef dimension<0,0,0>	scalar;
 	NSEND
 
 //base units

@@ -1,11 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sim", "sim\sim.vcxproj", "{0B4F2D41-730D-49B9-A0AD-8DCB94F09893}"
-EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "model", "model", "{B7343300-71D9-4A91-84F1-7E7C6FCDF683}"
 EndProject
-Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "airport", "model\airport\airport.vcxproj", "{FCF15E53-7014-49A5-88A0-925A98ED5D35}"
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "airport", "model\airport.vcxproj", "{FCF15E53-7014-49A5-88A0-925A98ED5D35}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "sim", "sim.vcxproj", "{0B4F2D41-730D-49B9-A0AD-8DCB94F09893}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,14 +13,14 @@ Global
 		Release|Win32 = Release|Win32
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{0B4F2D41-730D-49B9-A0AD-8DCB94F09893}.Debug|Win32.ActiveCfg = Debug|Win32
-		{0B4F2D41-730D-49B9-A0AD-8DCB94F09893}.Debug|Win32.Build.0 = Debug|Win32
-		{0B4F2D41-730D-49B9-A0AD-8DCB94F09893}.Release|Win32.ActiveCfg = Release|Win32
-		{0B4F2D41-730D-49B9-A0AD-8DCB94F09893}.Release|Win32.Build.0 = Release|Win32
 		{FCF15E53-7014-49A5-88A0-925A98ED5D35}.Debug|Win32.ActiveCfg = Debug|Win32
 		{FCF15E53-7014-49A5-88A0-925A98ED5D35}.Debug|Win32.Build.0 = Debug|Win32
 		{FCF15E53-7014-49A5-88A0-925A98ED5D35}.Release|Win32.ActiveCfg = Release|Win32
 		{FCF15E53-7014-49A5-88A0-925A98ED5D35}.Release|Win32.Build.0 = Release|Win32
+		{0B4F2D41-730D-49B9-A0AD-8DCB94F09893}.Debug|Win32.ActiveCfg = Debug|Win32
+		{0B4F2D41-730D-49B9-A0AD-8DCB94F09893}.Debug|Win32.Build.0 = Debug|Win32
+		{0B4F2D41-730D-49B9-A0AD-8DCB94F09893}.Release|Win32.ActiveCfg = Release|Win32
+		{0B4F2D41-730D-49B9-A0AD-8DCB94F09893}.Release|Win32.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

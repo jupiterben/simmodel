@@ -1,6 +1,7 @@
 #pragma once
 #include "..\..\sim\cpputil.h"
 #include "..\..\sim\unit.h"
+#include "..\..\sim\quantity.hpp"
 
 
 NSBEGIN(Model)
